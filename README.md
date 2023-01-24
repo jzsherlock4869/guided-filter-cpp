@@ -14,3 +14,7 @@ float epsilon = 0.1;
 ```
 
 can be tuned to check the influence to the output result.
+
+Example result:
+
+![input](./assets/inputImage.jpg) ![output](./assets/outputImage.jpg)
