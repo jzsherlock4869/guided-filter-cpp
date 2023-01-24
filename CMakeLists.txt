@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(GuidedFilter)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS} ${CMAKE_CURRENT_SOURCE_DIR})
+add_executable(GuidedFilter main_test.cpp guided_filter.cpp)
+target_link_libraries(GuidedFilter ${OpenCV_LIBS})
